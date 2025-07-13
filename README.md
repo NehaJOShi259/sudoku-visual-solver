@@ -1,43 +1,57 @@
 🧩 Sudoku Visual Solver (HTML + CSS + JavaScript | Backtracking)
-This is a visual, interactive Sudoku Solver built using vanilla JavaScript. It uses the Backtracking Algorithm to fill in a 9x9 grid and visually display the solving process on the webpage.
+This is a visual, interactive Sudoku Solver built using vanilla JavaScript. It uses the Backtracking Algorithm to fill a 9x9 grid and shows the solving process directly on the web page using the browser’s DOM.
 
 ✅ Features
-🔢 9x9 editable Sudoku grid (HTML-based UI)
+9x9 editable Sudoku grid
 
-🔁 Solves using recursive backtracking
+Solves using recursive backtracking
 
-🧠 Highlights the step-by-step solving process visually
+Step-by-step solving visualized on the screen
 
-🖥️ Built with pure HTML, CSS, JavaScript (no frameworks)
+Clean UI with interactive Solve and Reset buttons
 
-📱 Responsive and clean layout
+Built using pure HTML, CSS, JavaScript (no frameworks)
 
-🔗 Deployed via GitHub Pages
+Responsive layout
+
+Deployed using GitHub Pages
 
 🧠 Concepts Used
 Backtracking Algorithm
 
+Recursion and Constraint Checking
+
 DOM Manipulation (JavaScript)
 
-Recursion & Constraint Checking
-
-HTML Grid Structure
+HTML Grid Layout
 
 CSS Styling and Animation
 
-Event Handling in JavaScript
+Event Handling in JS
 
-📁 Project Structure
+🏗️ Code Structure
 File	Description
-index.html	Grid layout and buttons
-style.css	Styling and layout
-script.js	Backtracking logic + DOM interaction
+index.html	Main file containing grid layout & buttons
+style.css	Styling for layout and colors
+script.js	Logic for solving the Sudoku (backtracking) and DOM interaction
 
-🚀 How to Run Locally
-Clone the repo:
+🔧 How to Run
+🔹 Using Browser (Online)
+Just open this link:
+👉 https://nehajoshi259.github.io/sudoku-visual-solver/
+
+🔹 Using Terminal (Offline)
+Clone this repository:
 
 bash
 Copy
 Edit
 git clone https://github.com/NehaJOShi259/sudoku-visual-solver.git
 cd sudoku-visual-solver
+Open the index.html file in your browser:
+
+Windows: start index.html
+
+Mac: open index.html
+
+Or drag-drop it into any browser
