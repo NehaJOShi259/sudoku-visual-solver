@@ -1,0 +1,51 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #f6f6f9;
+}
+
+h1 { margin-bottom: 20px; }
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(9, 48px);
+  grid-template-rows:    repeat(9, 48px);
+  gap: 2px;
+  margin: 0 auto 24px;
+}
+
+input[type="text"] {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+input.filled  { background: #eaf7ff; }
+input.solved  { background: #d4ffd9; }
+input.invalid { background: #ffc9c9; }
+input.solving { background-color: #fff78c !important; transition: background-color 0.2s ease; }
+
+input:nth-child(3n+1) { border-left: 2px solid #000; }
+input:nth-child(9n)   { border-right:2px solid #000; }
+
+#board input:nth-child(n+19):nth-child(-n+27),
+#board input:nth-child(n+46):nth-child(-n+54) {
+  border-bottom: 2px solid #000;
+}
+
+.buttons button {
+  padding: 10px 28px;
+  margin: 0 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.msg { margin-top: 16px; font-weight: 600; }
+.msg.ok { color: #2e7d32; }
+.msg.err{ color: #c62828; }
