@@ -1,7 +1,7 @@
-#🧩 Sudoku Visual Solver (HTML + CSS + JavaScript | Backtracking)
+##🧩 Sudoku Visual Solver (HTML + CSS + JavaScript | Backtracking)
 ##This is a visual, interactive Sudoku Solver built using vanilla JavaScript. It uses the Backtracking Algorithm to fill a 9x9 grid and shows the solving process directly on the web page using the browser’s DOM.
 
-#✅ Features
+*##✅ Features*
 ##9x9 editable Sudoku grid
 
 ##Solves using recursive backtracking
