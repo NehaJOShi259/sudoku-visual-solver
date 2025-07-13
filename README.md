@@ -1,57 +1,50 @@
-##🧩 Sudoku Visual Solver (HTML + CSS + JavaScript | Backtracking)
-##This is a visual, interactive Sudoku Solver built using vanilla JavaScript. It uses the Backtracking Algorithm to fill a 9x9 grid and shows the solving process directly on the web page using the browser’s DOM.
+## 🧩 Sudoku Visual Solver (HTML + CSS + JavaScript | Backtracking)
 
-*##✅ Features*
-##9x9 editable Sudoku grid
+This is a visual, interactive Sudoku Solver built using **vanilla JavaScript**. It uses the **Backtracking Algorithm** to fill a 9x9 grid and shows the solving process step-by-step on the web page using the browser’s DOM.
 
-##Solves using recursive backtracking
+---
 
-##Step-by-step solving visualized on the screen
+## ✅ Features
 
-##Clean UI with interactive Solve and Reset buttons
+- **🔢 9x9 editable Sudoku grid**
+- **🔁 Solves using recursive backtracking**
+- **🧠 Step-by-step solving visualized on-screen**
+- **🖥️ Built using pure HTML, CSS, and JavaScript (no frameworks)**
+- **📱 Fully responsive layout**
+- **🔗 Live deployed using GitHub Pages**
 
-##Built using pure HTML, CSS, JavaScript (no frameworks)
+---
 
-##Responsive layout
+## 🧠 Concepts Used
 
-##Deployed using GitHub Pages
+- **Backtracking Algorithm**
+- **Recursion and Constraint Checking**
+- **DOM Manipulation (JavaScript)**
+- **HTML Grid Layout**
+- **CSS Styling and Animation**
+- **Event Handling in JS**
 
-#🧠 Concepts Used
-##Backtracking Algorithm
+---
 
-##Recursion and Constraint Checking
+## 🏗️ Code Structure
 
-##DOM Manipulation (JavaScript)
+| File         | Description                                |
+|--------------|--------------------------------------------|
+| `index.html` | Grid layout and buttons                    |
+| `style.css`  | Styling and layout                         |
+| `script.js`  | Backtracking logic + DOM interaction       |
 
-##HTML Grid Layout
+---
 
-##CSS Styling and Animation
+## 🔧 How to Run
 
-##Event Handling in JS
+### 🔹 Using Browser (Live Demo)
 
-#🏗️ Code Structure
-##File	Description
-##index.html	Main file containing grid layout & buttons
-##style.css	Styling for layout and colors
-##script.js	Logic for solving the Sudoku (backtracking) and DOM interaction
+👉 [Click here to open live project](https://nehajoshi259.github.io/sudoku-visual-solver/)
 
-#🔧 How to Run
-##🔹 Using Browser (Online)
-##Just open this link:
-##👉 https://nehajoshi259.github.io/sudoku-visual-solver/
+### 🔹 Using Terminal (Offline)
 
-##🔹 Using Terminal (Offline)
-##Clone this repository:
-
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/NehaJOShi259/sudoku-visual-solver.git
 cd sudoku-visual-solver
-Open the index.html file in your browser:
-
-Windows: start index.html
-
-Mac: open index.html
-
-Or drag-drop it into any browser
+start index.html     # or open it in your browser
